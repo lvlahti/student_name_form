@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>ثبت نام دانش‌آموز</title>
+  <style>
+    body { font-family: sans-serif; max-width: 480px; margin: 2rem auto; direction: rtl; text-align: right; }
+    label { display: block; margin-top: 1rem; }
+    input[type=text] { width: 100%; padding: .5rem .7rem; border: 1px solid #ccc; border-radius: 6px; }
+    button { margin-top: 1.2rem; padding: .6rem 1.4rem; border: none; border-radius: 6px; cursor: pointer; background: #0077ff; color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>فرم ثبت نام دانش‌آموز</h1>
+  <!--
+    ❗️ بعد از ساخت Google Apps Script، آدرس وب‌اپ را به‌جای YOUR_SCRIPT_URL_HERE قرار بده
+  -->
+  <form id="student-form" action="httpsscript.google.commacrossAKfycbxezwH93rgb51ZbAPh9BAtBIhEUnFLBgEQQE35RtA7n6DqAYuBrKuoyjIp_RlLCyvYJexec" method="POST">
+    <label for="name">نام و نام‌خانوادگی:</label>
+    <input type="text" id="name" name="name" required>
+
+    <button type="submit">ارسال</button>
+  </form>
+</body>
+</html>
